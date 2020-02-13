@@ -1,0 +1,32 @@
+name: bttvaistats2020
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - pip
+  - jupyter_contrib_nbextensions
+  - pip:
+      - bttv
+      - scikit-learn
+      - numpy
+      - scipy
+      - cython
+      - graphviz
+      - seaborn
+      - pandas
+      - matplotlib
+      - jupyterlab
+      - flake8
+      - autopep8
+      - wheelhouse_uploader
+      - Wheel
+      - pillow
+      - pydotplus
+      - jupyter
+      - xlrd
+      - pytest
+      - nose
+      - yapf
+      - nimfa
+      - nose-timer
