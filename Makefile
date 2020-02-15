@@ -15,6 +15,9 @@ get_nascar_data:
 get_nfl_filt_data:
 	Rscript R/get_nfl_data_filt_teams.R
 
+setup_r:
+	Rscript R/setup_r_packages.R
+
 clean:
 	find R  -iname '*.DS_Store' -print0 | xargs -0 rm -rf
 	find R  -iname '.Rhistory' -print0 | xargs -0 rm -rf
