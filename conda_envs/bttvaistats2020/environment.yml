@@ -7,7 +7,6 @@ dependencies:
   - pip
   - jupyter_contrib_nbextensions
   - pip:
-      - bttv
       - scikit-learn
       - numpy
       - scipy
