@@ -4,12 +4,12 @@
 setup_r_packages:
 	Rscript R/setup_r_packages.R
 
-conda_bttv:
+conda_bttvaistats2020:
 	conda env create -f=./conda_envs/bttvaistats2020/environment.yml
 
-conda_rem_reinst_bttv:
+conda_rem_reinst_bttvaistats2020:
 	conda remove --name bttvaistats2020 --all
-	conda_bttv
+	conda_bttvaistats2020
 
 get_nascar_data:
 	Rscript R/get_nascar_data.R
