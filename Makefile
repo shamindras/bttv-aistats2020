@@ -11,10 +11,6 @@ conda_rem_reinst_bttvaistats2020:
 	conda remove --name bttvaistats2020 --all
 	conda_bttvaistats2020
 
-get_nascar_data:
-	Rscript R/get_nascar_data.R
-	Rscript R/get_nascar_ranking_data.R
-
 get_nfl_filt_data:
 	Rscript R/get_nfl_data_filt_teams.R
 
